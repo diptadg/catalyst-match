@@ -1,0 +1,108 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+html {
+    scroll-behavior : smooth;
+}
+
+a {
+    text-decoration : none;
+}
+
+ul{
+    list-style-type : none;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=Krub:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500&display=swap');
+
+.dashboard{
+    display : flex;
+    background-color: #f3e1ba;
+}
+
+.title{
+    display : flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height : 10vh;
+    gap: 510px;
+}
+
+.App-logo{
+    width: 3cm;
+    height: auto;
+    margin-top: 1cm;
+    margin-left: 1cm;
+}
+
+.list{
+    margin-top: 0.5cm;
+    margin-left: -0.5cm;
+    display: table;
+}
+
+.horizontal-list{
+    display: flex;
+    justify-content: space-between;
+}
+.horizontal-list li{
+    display: inline;
+    margin: 2em;
+}
+.list-items a{
+    color: black;
+    font-family: sans-serif;
+    font-size: 25px; 
+    width: 9em;
+    font-weight: bold;
+}
+.list-items a:hover{
+    color: black;
+}
+
+.dashboard-content{
+    padding-top: 5.8cm;
+    margin-left: -37cm;
+    height:min-content;
+    width : 19cm;
+} 
+
+.ct1{
+    width: 25cm;
+    align-items: center;
+    display: flex;
+    height: auto;
+    color: #ca9465;
+    font-size : 65px;
+    font-family: 'Krub';
+    font-weight: 700;
+}
+
+.ct2{
+    color: gray;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 200;
+    width: 19cm;
+}
+
+.button1{
+    background-color: #ca9465;
+    color: white;
+    padding-inline: 3cm;
+    padding-block: 0.5cm;
+    width: 12.5cm;
+    font-family: sans-serif;
+    font-size: larger;
+    border: 0cm;
+    border-radius: 10px;
+    font-family: 'Krub';
+    font-weight: 700;
+    display: block;
+    cursor:pointer;
+}
