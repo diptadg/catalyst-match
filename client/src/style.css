@@ -51,8 +51,8 @@ html {
 
     transition: 0.3s;
 }
-.list-items a:hover{
-    border: 1px solid #ca9465;
+.dropdown li:hover{
+    background-color: #ca9465;
 }
 .dropdown{
     display: none;
