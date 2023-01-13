@@ -76,7 +76,6 @@ html {
 }
 
 .dashboard-content{
-    border: 10px solid black;
     position: absolute;
     margin-left: 10%;
     height:min-content;
