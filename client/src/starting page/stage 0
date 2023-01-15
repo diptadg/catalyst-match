@@ -1,0 +1,47 @@
+const starting_page = () => {
+  return(
+    <div>
+      {dashboard()}
+
+      <div class="starting_page">
+        <span class="title">
+          <h1 class="title1">Catalyst Profiling</h1>
+          <br />
+          <span class="title2">Complete Catalyst Profiling to learn your personality type, <br />collect points and get career advise!</span>
+        </span>
+
+        <div class="stages">
+          <div class="line">
+            <span class="dot"><br />Stage<br />
+              <span class="number">1</span>
+                <span class="points"><br /><br />500 points</span>
+            </span>
+            <span class="dot"><br />Stage<br />
+              <span class="number">2</span>
+                <span class="points"><br /><br />550 points</span>
+            </span>
+            <span class="dot"><br />Stage<br />
+              <span class="number">3</span>
+                <span class="points"><br /><br />600 points</span>
+            </span>
+            <span class="dot"><br />Stage<br />
+              <span class="number">4</span>
+                <span class="points"><br /><br />650 points</span>
+            </span>
+            <span class="dot"><br />Stage<br />
+              <span class="number">5</span>
+                <span class="points"><br /><br />700 points</span>
+            </span>
+          </div>
+        </div>
+
+        <section class="take_test">
+          <div class="take_test_button">
+            <button class="take_test_b1">Start test</button>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  );
+}
