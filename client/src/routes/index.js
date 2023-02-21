@@ -15,7 +15,7 @@ import Personalitytest from "../components/Personalitytest";
 import Personalityreport from "../components/Personalityreport";
 import Matching from "../components/Matching";
 import Profiling from "../components/Profiling";
-import Recommendation from "../components/Recomandation";
+import Recommendation from "../components/Recommendation";
 
 const router = createBrowserRouter([
   {

@@ -122,7 +122,7 @@ function Login() {
 </div>
 
 <div class="float-child ">
-<img  src={logo} style={{ width: "5cm", }} alt="logo" />
+<img  src={logo}  alt="logo" />
 </div>
 
 
