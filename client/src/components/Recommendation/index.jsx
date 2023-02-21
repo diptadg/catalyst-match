@@ -71,7 +71,7 @@ const Recommendation = () => {
         <div class="career_recommendation">
           <div class="poly_box">
             <div class="poly">
-              <div class="field">Advice</div>
+              <div class="field">Software Developer, Web Developer</div>
               <div class="field_description">
                 “{texts}” -- {auths}.{" "}
             </div>

@@ -41,7 +41,7 @@ const router = createBrowserRouter([
           { path: "profile", element: <Profile /> },
           { path: "starting_page", element: <Personalitytest /> },
           { path: "catalyst_report", element: <Personalityreport /> },
-          { path: "matching_page", element: <Matching /> },
+          { path: "user_messaging", element: <Matching /> },
           { path: "catalyst_profiling", element: <Profiling /> },
           { path: "advice", element: <Recommendation /> },
           

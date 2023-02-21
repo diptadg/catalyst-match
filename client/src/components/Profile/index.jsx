@@ -286,7 +286,7 @@ const Profile = () => {
                 <br />
                 <br />
                 <FormControl disabled={btn} variant="standard">
-                  <InputLabel htmlFor="component-disabled">Intrest</InputLabel>
+                  <InputLabel htmlFor="component-disabled">Interests</InputLabel>
                   <Input
                     style={{ width: "220px" }}
                     // id="component-disabled"

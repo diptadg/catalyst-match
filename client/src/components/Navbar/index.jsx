@@ -30,12 +30,12 @@ import { AuthenticationContext } from "../../context/authenticationContext";
 import { closeNotify } from "../../redux/features/notify/notifySlice";
 
 
-const pages = ["Home", "Catalyst Profiling", "Catalyst Report", "Connect"];
+const pages = ["Home", "Catalyst Profiling", "Catalyst Report", "Messages"];
 const links = [
   "/dash",
   "/dash/starting_page",
   "/dash/catalyst_report",
-  "/dash/matching_page",
+  "/dash/user_messaging",
 ];
 const settings = ["Profile", "Logout"];
 

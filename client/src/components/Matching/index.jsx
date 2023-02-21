@@ -17,19 +17,17 @@ const Matching = () => {
     
     <h1 class="user">
         <div class="user_avatar"></div>
-        <div class="user_name">Sami</div>
+        <div class="user_name">Messages</div>
     </h1>
 
     <div class="matching_details">
         <ul class="matching_action">
-            <li class="action_option"><a href="#">Matches</a></li>
-            <li class="action_option"><a href="#">Messages</a></li>
         </ul>
 
         <div class="matches_introduction">
             <div class="bar" style={{backgroundColor:'gray'}} ></div>
-            <h1 class="matching_intro">Start Matching
-                <div class="matching_description">Matches will appear here once you start to Like people. You can message them directly from here when you’re ready to spark up the conversation</div>
+            <h1 class="matching_intro">Start Messaging
+                <div class="matching_description">Messages will appear here once you start to message people. You can message them directly from here when you’re ready to spark up the conversation</div>
             </h1>
         </div>
     </div>
@@ -42,7 +40,7 @@ const Matching = () => {
       </div>
         
             <h2 class="ru">
-                Amraltab
+                
                 <div class="ru_actions">
                     <a href="#"><span class="material-symbols-outlined">Refresh</span></a>
                     <a href="#"><span class="material-symbols-outlined">Close</span></a>
